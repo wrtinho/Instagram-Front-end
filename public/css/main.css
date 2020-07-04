@@ -57,15 +57,17 @@ button {
 }
 
 .stories{
-	background-color: white;
 	margin-top: 20px;
 	
+}
+.container{
+	background-color: white;
+	width: 700px;
 }
 
 .stories .container{
 	border: 1px solid rgba(0, 0, 0, .1);
 	height: 120px;
-	width: 700px;
 }
 
 .stories__container{
@@ -112,4 +114,13 @@ button {
     text-align: center;
 	text-overflow: ellipsis;
 	
+}
+
+.posts{
+	margin-top: 20px;
+}
+
+.posts .container{
+	border: 1px solid rgba(0, 0, 0, .1);
+	height: auto;
 }
