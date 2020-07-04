@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* :root {
+	--gradient-color:  linear-gradient(45deg, rgba(245, 160, 77, 1) 0%, rgba(160, 15, 139, 1) 100%);
+} */
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 56px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FAFAFA;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+button {
+	outline: none;
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.header{
+	background: white;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 8px 16px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+.header .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 700px;
+}
+
+.header__logo{
+	height: 40px;
+	width: 150px;
+	display: inline-block;
+	background-color: white;
+}
+
+.stories{
+	background-color: white;
+	margin-top: 20px;
+	
+}
+
+.stories .container{
+	border: 1px solid rgba(0, 0, 0, .1);
+	height: 120px;
+	width: 700px;
+}
+
+.stories__container{
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	padding-left: 20px;
+	
+}
+
+.stories__user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90px;
+}
+
+
+.stories__user img{ 
+	width: 70px;
+	border-radius: 100%;
+	padding: 2px;
+	overflow: hidden;
+	background: white;
+	position: absolute;
+
+}
+
+.stories__user--new img {
+
+	border: 3px solid #E1306C;
+}
+
+.stories__username{
+	letter-spacing: .01em;
+	width: 85px;
+
+	font-size: 12px;
+	color: #000;
+	font-weight: 500;
+
+	padding-top: 60px;
+	overflow: hidden;
+    text-align: center;
+	text-overflow: ellipsis;
+	
+}
