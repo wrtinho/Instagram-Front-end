@@ -41,6 +41,7 @@ button {
 	top: 0;
 	padding: 8px 16px;
 	box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+	position: absolute;
 }
 .header .container{
 	display: flex;
@@ -93,11 +94,10 @@ button {
 	overflow: hidden;
 	background: white;
 	position: absolute;
-
 }
 
 .stories__user--new img {
-
+	/* background: linear-gradient(45deg, rgba(245, 160, 77, 1) 0%, rgba(160, 15, 139, 1) 100%); */
 	border: 3px solid #E1306C;
 }
 
@@ -121,6 +121,45 @@ button {
 }
 
 .posts .container{
+
 	border: 1px solid rgba(0, 0, 0, .1);
 	height: auto;
+}
+.post__top{
+	display: flex;
+	justify-content: space-between;
+}
+.profile{
+	display: flex;
+	padding: 10px;
+	align-items: center;
+}
+.profile img{
+	width: 60px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.post__top a p{
+	padding: 0px 20px;
+	font-weight: 900;
+	font-size: 22px;
+}
+.post__imagem img{
+	width: 100%;
+}
+
+.post__icons{
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+	padding: 2px 10px;
+}
+.post__icons i{
+	padding: 0 5px;
+}
+.icons__relacao i:first-child:active {
+	color: red;
+}
+.icon__save{
+	
 }
