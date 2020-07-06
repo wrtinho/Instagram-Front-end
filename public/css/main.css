@@ -156,10 +156,69 @@ button {
 }
 .post__icons i{
 	padding: 0 5px;
+	cursor: pointer;
 }
 .icons__relacao i:first-child:active {
 	color: red;
 }
 .icon__save{
-	
+
+}
+
+.post__iteracao{
+	display: flex;
+	align-items: center;
+	width: 700px;
+	background-color: #FAFAFA;
+	padding: 15px 0;
+	border: 1px solid rgba(0, 0, 0, .1);
+
+
+}
+.post__iteracao img{
+	margin: 0 10px;
+	width: 30px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.post__comentarios{
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px;
+}
+.comment_unico{
+	display: flex;
+	justify-content: space-between;
+}
+.comentarios__comments a{
+	color: darkgray;
+	font-size: 16px;
+}
+
+.comentarios__time{
+	color: darkgray;
+	font-size: 14px;
+	letter-spacing: .01em;
+	font-weight: 500;
+}
+.post__comment_send{
+	padding-left: 10px;
+	padding-top: 10px;
+	border: 1px solid rgba(0, 0, 0, .1);
+
+}
+.post__comment_send input{
+	padding-right: 380px;
+	border: none;
+}
+
+.post__comment_send input:focus{
+    outline: 0;
+}
+
+.post__comment_send button{
+	padding: 0 10px 10px 25px;
+	color: #b2dffc;
+	font-weight: bold;
 }
