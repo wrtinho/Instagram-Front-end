@@ -14,14 +14,9 @@ Neste desafio, foi praticado conhecimentos em:
 
 ## Screenshots de Referência
 
-### Versão Mobile:
-
-![Clique aqui ➡️](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-12/screenshot-aula-02-mobile.jpg)
-
-### Versão Desktop:
-
-![Clique aqui ➡️](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-12/screenshot-aula-02-desktop.jpg)
-
+| Versão Mobile: |Versão Desktop: |
+|----------|----------|
+| ![example](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-12/screenshot-aula-02-mobile.jpg) |  ![example](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-12/screenshot-aula-02-desktop.jpg) |
 
 ## Para ver o resultado que obtive, e só clicar no link abaixo
 
